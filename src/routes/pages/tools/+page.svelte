@@ -7,7 +7,9 @@ let links = [
     {name: 'git scm', href: 'https://git-scm.com/'},
     {name: 'NodeJS', href: 'https://nodejs.org/en'},
     {name: 'Slack', href: 'https://slack.com/'},
-    {name: 'MSTeams', href: 'https://teams.microsoft.com/'}
+    {name: 'MSTeams', href: 'https://teams.microsoft.com/'},
+    {name: 'Jira', href: 'https://www.atlassian.com/software/jira/free'},
+    {name: 'GitHub', href: 'https://github.com/'}
 ]
 
 </script>
