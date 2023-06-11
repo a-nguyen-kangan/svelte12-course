@@ -61,12 +61,6 @@
 <svelte:window bind:innerWidth={width} />
 <Navbar let:hidden let:toggle>
   <NavHamburger on:click={toggleDrawer} btnClass="ml-3 lg:hidden" />
-  <NavBrand href="/" class="lg:ml-64">
-    <Cog />
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-4">
-      My Website
-    </span>
-  </NavBrand>
   <!-- <NavHamburger on:click={toggle} />
   <NavUl {hidden} {divClass} {ulClass}>
     <NavLi href="/">Home</NavLi>
@@ -121,20 +115,36 @@
           {spanClass}
           on:click={toggleSide}
           active={activeUrl === '/weeks/week1/git'}
-        />
-        <SidebarItem
-        label="Tasks"
-        href={`/weeks/week1/tasks`}
-        {spanClass}
-        on:click={toggleSide}
-        active={activeUrl === '/weeks/week1/tasks'}
-        />
+          />
+          <SidebarItem
+          label="Tasks"
+          href={`/weeks/week2/tasks`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week2/tasks'}
+          />
+        </SidebarDropdownWrapper>
+        <SidebarDropdownWrapper label="Week 2">
+          <SidebarItem
+            label="Content - JavaScript"
+            href={`/weeks/week2/javascript`}
+            {spanClass}
+            on:click={toggleSide}
+            active={activeUrl === '/weeks/week2/javascript'}
+          />
+          <SidebarItem
+          label="Tasks"
+          href={`/weeks/week2/tasks`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week2/tasks'}
+          />
         </SidebarDropdownWrapper>
       </SidebarGroup>
     </SidebarWrapper>
   </Sidebar>
 </Drawer>
-<div class="flex px-4 mx-auto w-full dark:bg-gray-600">
+<div class="flex px-4 mx-auto w-full dark:bg-gray-800">
   <main class="lg:ml-72 w-full mx-auto">
     <slot />
   </main>

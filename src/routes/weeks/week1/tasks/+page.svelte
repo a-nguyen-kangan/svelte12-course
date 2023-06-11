@@ -3,7 +3,7 @@ import '../../../../style.css';
 import { Card } from 'flowbite-svelte';
 </script>
 <br>
-<div class="viewport grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-1">
+<div class="viewport grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
     <Card href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1" target="_blank">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           FreeCodeCamp - Build a Cafe Menu
@@ -56,6 +56,6 @@ import { Card } from 'flowbite-svelte';
 
 <style>
     Card {
-        display: "inline"
+        display: "inline";
     }
 </style>
