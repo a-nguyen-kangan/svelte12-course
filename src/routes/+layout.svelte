@@ -140,6 +140,22 @@
           active={activeUrl === '/weeks/week2/tasks'}
           />
         </SidebarDropdownWrapper>
+        <SidebarDropdownWrapper label="Week 3">
+          <SidebarItem
+            label="Content - JavaScript Functions"
+            href={`/weeks/week3/javascript_functions`}
+            {spanClass}
+            on:click={toggleSide}
+            active={activeUrl === '/weeks/week3/javascript_functions'}
+          />
+          <SidebarItem
+          label="Content - JavaScript Arrays"
+          href={`/weeks/week3/javascript_arrays`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week3/javascript_arrays'}
+        />
+        </SidebarDropdownWrapper>
       </SidebarGroup>
     </SidebarWrapper>
   </Sidebar>
