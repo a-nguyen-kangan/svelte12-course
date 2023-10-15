@@ -1,4 +1,4 @@
-This is currently deployed at:
+`This is currently deployed at:
 [`https://scintillating-licorice-39dc78.netlify.app`](https://scintillating-licorice-39dc78.netlify.app).
 
 # create-svelte

@@ -156,6 +156,22 @@
           active={activeUrl === '/weeks/week3/javascript_arrays'}
         />
         </SidebarDropdownWrapper>
+        <SidebarDropdownWrapper label="Week 4">
+          <SidebarItem
+            label="Content - CSS Libraries"
+            href={`/weeks/week4/css_libraries`}
+            {spanClass}
+            on:click={toggleSide}
+            active={activeUrl === '/weeks/week4/css_libraries'}
+          />
+          <SidebarItem
+          label="Content - Typescript"
+          href={`/weeks/week4/typescript`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week4/typescript'}
+        />
+        </SidebarDropdownWrapper>
       </SidebarGroup>
     </SidebarWrapper>
   </Sidebar>
