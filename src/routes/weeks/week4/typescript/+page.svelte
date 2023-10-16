@@ -2,3 +2,5 @@
 <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.typescriptlang.org/" target="_blank">Typescript</a></p>
 <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.w3schools.com/typescript/index.php" target="_blank">W3Schools: Typescript</a></p>
 <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://stackblitz.com/edit/typescript-xhvxdj?file=index.ts" target="_blank">Stackblitz: Typescript Playground</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d56mG7DezGs?si=QJUUquJyPnUq1fjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
