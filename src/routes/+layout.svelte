@@ -172,6 +172,22 @@
           active={activeUrl === '/weeks/week4/typescript'}
         />
         </SidebarDropdownWrapper>
+        <SidebarDropdownWrapper label="Week 5">
+          <SidebarItem
+            label="Content - JS Frameworks"
+            href={`/weeks/week5/js_frameworks`}
+            {spanClass}
+            on:click={toggleSide}
+            active={activeUrl === '/weeks/week4/css_libraries'}
+          />
+          <SidebarItem
+          label="Content - Svelte"
+          href={`/weeks/week5/svelte`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week5/svelte'}
+        />
+        </SidebarDropdownWrapper>
       </SidebarGroup>
     </SidebarWrapper>
   </Sidebar>
