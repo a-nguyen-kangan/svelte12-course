@@ -101,6 +101,22 @@
           on:click={toggleSide}
           active={activeUrl === '/pages/tools'}
         />
+        <SidebarDropdownWrapper label="Javascript">
+          <SidebarItem
+            label="Javascript learning resources"
+            href={`/weeks/Javascript/resources`}
+            {spanClass}
+            on:click={toggleSide}
+            active={activeUrl === '/weeks/Javascript/resources'}
+          />
+          <SidebarItem
+          label="Tasks"
+          href={`/weeks/Javascript/tasks`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/Javascript/tasks'}
+          />
+        </SidebarDropdownWrapper>
         <SidebarDropdownWrapper label="Week 1">
           <SidebarItem
             label="Content - Web"
@@ -110,28 +126,42 @@
             active={activeUrl === '/weeks/week1/html'}
           />
           <SidebarItem
-          label="Content - Git/GitHub"
-          href={`/weeks/week1/git`}
-          {spanClass}
-          on:click={toggleSide}
-          active={activeUrl === '/weeks/week1/git'}
-          />
-          <SidebarItem
           label="Tasks"
-          href={`/weeks/week2/tasks`}
+          href={`/weeks/week1/tasks`}
           {spanClass}
           on:click={toggleSide}
-          active={activeUrl === '/weeks/week2/tasks'}
+          active={activeUrl === '/weeks/week1/tasks'}
           />
         </SidebarDropdownWrapper>
         <SidebarDropdownWrapper label="Week 2">
           <SidebarItem
-            label="Content - JavaScript"
-            href={`/weeks/week2/javascript`}
-            {spanClass}
-            on:click={toggleSide}
-            active={activeUrl === '/weeks/week2/javascript'}
+          label="Selectors"
+          href={`/weeks/week2/selectors`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week2/selectors'}
           />
+          <SidebarItem
+          label="DIV - Flexbox"
+          href={`/weeks/week2/divs`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week2/divs'}
+          />
+          <SidebarItem
+          label="Figma"
+          href={`/weeks/week2/figma`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week2/figma'}
+          />
+          <SidebarItem
+          label="CSS Libraries"
+          href={`/weeks/week2/css_libraries`}
+          {spanClass}
+          on:click={toggleSide}
+          active={activeUrl === '/weeks/week2/css_libraries'}
+        />
           <SidebarItem
           label="Tasks"
           href={`/weeks/week2/tasks`}
@@ -141,6 +171,13 @@
           />
         </SidebarDropdownWrapper>
         <SidebarDropdownWrapper label="Week 3">
+          <SidebarItem
+            label="Content - JavaScript"
+            href={`/weeks/week3/javascript`}
+            {spanClass}
+            on:click={toggleSide}
+            active={activeUrl === '/weeks/week3/javascript'}
+          />
           <SidebarItem
             label="Content - JavaScript Functions"
             href={`/weeks/week3/javascript_functions`}
@@ -174,18 +211,18 @@
         </SidebarDropdownWrapper>
         <SidebarDropdownWrapper label="Week 5">
           <SidebarItem
-            label="Content - JS Frameworks"
-            href={`/weeks/week5/js_frameworks`}
-            {spanClass}
-            on:click={toggleSide}
-            active={activeUrl === '/weeks/week4/css_libraries'}
-          />
-          <SidebarItem
           label="Content - Svelte"
           href={`/weeks/week5/svelte`}
           {spanClass}
           on:click={toggleSide}
           active={activeUrl === '/weeks/week5/svelte'}
+        />
+        <SidebarItem
+        label="Content - Git/GitHub"
+        href={`/weeks/week5/git`}
+        {spanClass}
+        on:click={toggleSide}
+        active={activeUrl === '/weeks/week5/git'}
         />
         </SidebarDropdownWrapper>
       </SidebarGroup>

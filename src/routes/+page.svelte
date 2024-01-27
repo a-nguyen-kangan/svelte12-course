@@ -3,5 +3,5 @@ import '../style.css';
 </script>
 
 <div class="viewport">
-Resources and tasks for the short course can be found here!
+<p class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">Resources and tasks for the short course can be found here!</p>
 </div>

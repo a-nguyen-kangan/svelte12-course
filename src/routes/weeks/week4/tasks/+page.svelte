@@ -3,37 +3,32 @@ import '../../../../style.css';
 import { Card } from 'flowbite-svelte';
 </script>
 <br>
-<h2 class="text-2xl font-extrabold dark:text-white p-5">Week 2 - Tasks</h2>
-<h2 class="text-2xl font-extrabold dark:text-white p-5">Day 1: Selectors and Flexbox</h2>
 <div class="viewport grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
-  <Card href="https://codepen.io/Colt/pen/rNrrBoW" target="_blank">
-    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      CSS Selectors Exercise
-    </h5>
-    <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
-      Practice your CSS selectors with this exercise on CodePen!
-      <br>
-      Only change the CSS, not the HTML!
-    </p>
-  </Card>
-
-  <Card img="/images/week2/flexboxfroggy.jpg" href="https://flexboxfroggy.com/" target="_blank">
+      <Card href="https://www.w3schools.com/js/js_quiz.asp" target="_blank">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Flexbox Froggy
+          W3Schools JS Quiz
         </h5>
         <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
-          Try the Flexbox Froggy game to get a better understanding of Flexbox.  You should be able to do everything up to exercise 23.  24 can be a little tricky, but give it a go!
+          Have a crack at the W3Schools HTML Quiz
         </p>
       </Card>
 
-      
-      <Card href="https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php" target="_blank">
+      <Card href="https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php" target="_blank">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Todo List App
+          W3Schools JS Exercises
         </h5>
         <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
-          Update the Todo List App from week 1 to incorporate some styling.<br>
-          Before starting use Figma to create a design for the app.  You can use the design from the week 1 task as a starting point.
+          These are a good bunch of short exercises to practice on!  <br>
+          Be aware that sets of exercises can be chosen from the side menu. <br>
+          The JS HTML DOM set of exercises are essential to do.
+        </p>
+      </Card>
+      <Card href="https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php" target="_blank">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          W3Resource: JavaScript (HTML DOM) - Exercises, Practice, Solution
+        </h5>
+        <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
+          Short tasks/exercises to practice DOM manipulation
         </p>
       </Card>
       <Card img="/images/week1/todo_basic.jpg" href="https://lively-pony-d1285d.netlify.app/" target="_blank">
