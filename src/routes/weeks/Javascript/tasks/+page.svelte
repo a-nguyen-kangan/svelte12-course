@@ -6,7 +6,7 @@ import { Card } from 'flowbite-svelte';
 <div class="viewport grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
       <Card href="https://exercism.org/tracks/javascript/concepts" target="_blank">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          W3Schools JS Quiz
+          Exercism exercises
         </h5>
         <p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">
           Attempt the Exercism exercises in the Javascript track.  <br>
