@@ -5,7 +5,7 @@ import { Card } from 'flowbite-svelte';
 <br>
 <h2 class="text-2xl font-extrabold dark:text-white p-5">Week 1 - Tasks</h2>
 <h2 class="text-2xl font-extrabold dark:text-white p-5">Day 1: HTML</h2>
-<div class="viewport grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
+<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10">
     <!-- <Card href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1" target="_blank">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           FreeCodeCamp - Build a Cafe Menu

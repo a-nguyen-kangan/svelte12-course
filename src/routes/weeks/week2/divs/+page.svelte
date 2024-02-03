@@ -5,6 +5,7 @@
         <h2 class="text-4xl font-extrabold dark:text-white">References for HTML DIV and Flexbox</h2>
         <br>
         <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.w3schools.com/html/html_div.asp" target="_blank">W3Schools HTML Reference - DIV</a></p>
+        <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/" target="_blank">An Interactive Guide to Flexbox</a></p>
         <p class="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400"><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">W3Schools Flexbox</a></p>
         <br>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/phWxA89Dy94?si=E4xiUNbUvegXQB1a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
